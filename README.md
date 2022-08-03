@@ -82,6 +82,9 @@ Google 측에도 Issue Tracker를 통해 제보했습니다. 오랜 기간 답�
 
 다행히 AndroidView를 통해 EditText를 사용할 수 있었습니다. 이런 식으로도 사용할 수 있다는 것을 보여주기 위해 [간단한 sample](https://github.com/holixfactory/EditTextField/blob/main/app/src/main/java/com/example/sampleedittext/CustomTextField.kt)을 작성해뒀습니다. 실제 저희 앱에서 쓰는 CustomTextField는 요구사항이 더 있어서 focus, styling등 부가적인 구현을 해둔 것이 있으니, 상황에 맞게 커스터마이징 하시면 될 것 같습니다!
 <br />
+#### 관련 이슈 (추정)
+- https://issuetracker.google.com/issues/239471016
+<br />
 ## 마치며
 이 이슈는 Compose 출시 전 부터 현재 기준 최신 버전인 1.3.0-alpha01까지 해결되지 않은 문제입니다. 저희 서비스 내 운영 중인 [<Jetpack Compose 커뮤니티>](https://holix.com/c/OnwYAkw8)와 GDG 커뮤니티 등에서 이야기 한 적이 있었는데, 좀 더 본격적으로 함께 고민해보고자 이 repository를 준비했습니다. 
 
