@@ -1,14 +1,20 @@
 # Medium
-(링크)
+https://workspace-dev.medium.com/jetpack-compose-textfield-5866bdae33e7
 
 # 테스트 앱
+| app-snapshot-debug.apk | app-latest-debug.apk |
+|:---:|:---:|
+|![Screen_Recording_20220805-123550_Snapshot TextField_1](https://user-images.githubusercontent.com/7759511/183021094-dbfd74ee-74e8-4ccf-a602-25766d188c85.gif)|![Screen_Recording_20220805-033754_TextField Samsung Keyboard Problem_1](https://user-images.githubusercontent.com/7759511/183021005-4f100369-4f46-4d46-8370-10b394859502.gif)|
+
 - app-snapshot-debug.apk (compose 1.3.0-SNAPSHOT, material3 1.0.0-SNAPSHOT)
 - app-latest-debug.apk (compose 1.3.0-alpha02, material3 1.0.0-alpha15)
+
+
 [apps.zip](https://github.com/holixfactory/TextField-SamsungKeyboard-Problem/files/9265878/apps.zip)
 
-
+# 이전의 기록
 <details>
-<summary>이전의 기록</summary>
+<summary>내용 보기</summary>
 # EditTextField
 
 텍스트 입력을 받는 컴포넌트는 앱 개발 시 기본적으로 필요한 요소입니다. View에는 EditText, TextInputLayout등이 있었고, Jetpack Compose에는 BasicTextField, TextField가 있습니다.
