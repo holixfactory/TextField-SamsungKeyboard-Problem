@@ -1,7 +1,7 @@
 # Medium
 https://workspace-dev.medium.com/jetpack-compose-textfield-5866bdae33e7
 
-# 테스트 앱
+# APK
 | app-snapshot-debug.apk | app-latest-debug.apk |
 |:---:|:---:|
 |![Screen_Recording_20220805-123550_Snapshot TextField_1](https://user-images.githubusercontent.com/7759511/183021094-dbfd74ee-74e8-4ccf-a602-25766d188c85.gif)|![Screen_Recording_20220805-033754_TextField Samsung Keyboard Problem_1](https://user-images.githubusercontent.com/7759511/183021005-4f100369-4f46-4d46-8370-10b394859502.gif)|
