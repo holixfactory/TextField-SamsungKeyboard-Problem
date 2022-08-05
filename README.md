@@ -2,6 +2,8 @@
 https://workspace-dev.medium.com/jetpack-compose-textfield-5866bdae33e7
 
 # APK
+[apps.zip](https://github.com/holixfactory/TextField-SamsungKeyboard-Problem/files/9265878/apps.zip)
+
 | app-snapshot-debug.apk | app-latest-debug.apk |
 |:---:|:---:|
 |<img src="https://user-images.githubusercontent.com/7759511/183021094-dbfd74ee-74e8-4ccf-a602-25766d188c85.gif" width="300">)|<img src="https://user-images.githubusercontent.com/7759511/183021005-4f100369-4f46-4d46-8370-10b394859502.gif" width="300">|
@@ -11,7 +13,6 @@ https://workspace-dev.medium.com/jetpack-compose-textfield-5866bdae33e7
 - app-latest-debug.apk (compose 1.3.0-alpha02, material3 1.0.0-alpha15)
 
 
-[apps.zip](https://github.com/holixfactory/TextField-SamsungKeyboard-Problem/files/9265878/apps.zip)
 
 # 이전의 기록
 <details>
