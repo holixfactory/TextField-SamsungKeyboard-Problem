@@ -2,10 +2,11 @@
 https://workspace-dev.medium.com/jetpack-compose-textfield-5866bdae33e7
 
 # APK
-| app-snapshot-debug.apk | app-latest-debug.apk | 삼성 키보드 버전|
-|:---:|:---:|:---:|
-|<img src="https://user-images.githubusercontent.com/7759511/183021094-dbfd74ee-74e8-4ccf-a602-25766d188c85.gif" width="300">)|![<img src="https://user-images.githubusercontent.com/7759511/183021005-4f100369-4f46-4d46-8370-10b394859502.gif" width="300">|<img src="https://user-images.githubusercontent.com/7759511/183022303-a43998d4-7e10-4b30-aef0-e1f52a4991e0.png" width="300">|
+| app-snapshot-debug.apk | app-latest-debug.apk |
+|:---:|:---:|
+|<img src="https://user-images.githubusercontent.com/7759511/183021094-dbfd74ee-74e8-4ccf-a602-25766d188c85.gif" width="300">)|<img src="https://user-images.githubusercontent.com/7759511/183021005-4f100369-4f46-4d46-8370-10b394859502.gif" width="300">|
 
+- 삼성 키보드 버전 5.4.70.33
 - app-snapshot-debug.apk (compose 1.3.0-SNAPSHOT, material3 1.0.0-SNAPSHOT)
 - app-latest-debug.apk (compose 1.3.0-alpha02, material3 1.0.0-alpha15)
 
