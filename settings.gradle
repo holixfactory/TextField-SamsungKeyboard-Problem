@@ -10,7 +10,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url "https://androidx.dev/snapshots/builds/8878537/artifacts/repository" }
     }
 }
-rootProject.name = "SampleEditText"
+
+rootProject.name = "textfield-samsung-keyboard-problem"
 include ':app'
+include ':latest'
+include ':snapshot'

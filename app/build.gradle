@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace 'com.example.sampleedittext'
-    compileSdk 32
+    namespace 'com.holix.textfieldsamsungkeyboardproblem'
+    compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.sampleedittext"
+        applicationId "com.holix.textfieldsamsungkeyboardproblem"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -27,37 +27,51 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
     kotlinOptions {
-        jvmTarget = '1.8'
+        jvmTarget = JavaVersion.VERSION_11.toString()
     }
     buildFeatures {
         compose true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion '1.2.0-beta01'
+        kotlinCompilerExtensionVersion '1.2.0'
     }
     packagingOptions {
         resources {
             excludes += '/META-INF/{AL2.0,LGPL2.1}'
         }
     }
+    flavorDimensions "version"
+    productFlavors {
+        latest {
+            dimension "version"
+            applicationIdSuffix ".latest"
+            versionNameSuffix "-latest"
+        }
+        snapshot {
+            dimension "version"
+            applicationIdSuffix ".snapshot"
+            versionNameSuffix "-snapshot"
+        }
+    }
 }
 
 dependencies {
+    latestImplementation project(":latest")
+    snapshotImplementation project(":snapshot")
 
-    implementation 'androidx.core:core-ktx:1.7.0'
-    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.3.1'
-    implementation 'androidx.activity:activity-compose:1.3.1'
-    implementation "androidx.compose.ui:ui:$compose_ui_version"
-    implementation "androidx.compose.ui:ui-tooling-preview:$compose_ui_version"
-    implementation 'androidx.compose.material:material:1.2.0-beta01'
-    testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
-    androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_ui_version"
-    debugImplementation "androidx.compose.ui:ui-tooling:$compose_ui_version"
-    debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_ui_version"
+    implementation 'androidx.core:core-ktx:1.8.0'
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.5.1'
+    implementation 'androidx.activity:activity-compose:1.5.1'
+    implementation "androidx.compose.ui:ui:$compose_latest_version"
+    implementation "androidx.compose.foundation:foundation:$compose_latest_version"
+    implementation "androidx.compose.material:material:$compose_latest_version"
+    implementation "androidx.compose.ui:ui-tooling-preview:$compose_latest_version"
+    implementation "com.google.accompanist:accompanist-pager:$accompanist_latest_version"
+    implementation "com.google.accompanist:accompanist-pager-indicators:$accompanist_latest_version"
+    debugImplementation "androidx.compose.ui:ui-tooling:$compose_latest_version"
+    debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_latest_version"
 }
