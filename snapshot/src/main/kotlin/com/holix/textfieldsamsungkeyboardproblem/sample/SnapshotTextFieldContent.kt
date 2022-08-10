@@ -32,8 +32,8 @@ fun TextFieldContent(
             .padding(12.dp),
         verticalArrangement = spacedBy(12.dp)
     ) {
-        Text(text = "${Typography.middleDot} compose(1.3.0-SNAPSHOT)", style = MaterialTheme.typography.body1)
-        Text(text = "${Typography.middleDot} material3(1.0.0-SNAPSHOT)", style = MaterialTheme.typography.body1)
+        Text(text = "${Typography.middleDot} compose(1.3.0-alpha03)", style = MaterialTheme.typography.body1)
+        Text(text = "${Typography.middleDot} material3(1.0.0-alpha16)", style = MaterialTheme.typography.body1)
         Text(text = "BasicTextField", style = MaterialTheme.typography.subtitle1)
         SnapshotBasicTextField()
         Text(text = "Material 2 TextField", style = MaterialTheme.typography.subtitle1)
