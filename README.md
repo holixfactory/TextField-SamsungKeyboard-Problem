@@ -1,3 +1,22 @@
+# Medium
+https://workspace-dev.medium.com/jetpack-compose-textfield-5866bdae33e7
+
+# APK
+[apps.zip](https://github.com/holixfactory/TextField-SamsungKeyboard-Problem/files/9265878/apps.zip)
+
+| app-snapshot-debug.apk | app-latest-debug.apk |
+|:---:|:---:|
+|<img src="https://user-images.githubusercontent.com/7759511/183021094-dbfd74ee-74e8-4ccf-a602-25766d188c85.gif" width="300">)|<img src="https://user-images.githubusercontent.com/7759511/183021005-4f100369-4f46-4d46-8370-10b394859502.gif" width="300">|
+
+- 삼성 키보드 버전 5.4.70.33
+- app-snapshot-debug.apk (compose 1.3.0-SNAPSHOT, material3 1.0.0-SNAPSHOT)
+- app-latest-debug.apk (compose 1.3.0-alpha02, material3 1.0.0-alpha15)
+
+
+
+# 이전의 기록
+<details>
+<summary>내용 보기</summary>
 # EditTextField
 
 텍스트 입력을 받는 컴포넌트는 앱 개발 시 기본적으로 필요한 요소입니다. View에는 EditText, TextInputLayout등이 있었고, Jetpack Compose에는 BasicTextField, TextField가 있습니다.
@@ -94,3 +113,4 @@ Google 측에도 Issue Tracker를 통해 제보했습니다. 오랜 기간 답�
 감사합니다.
 <br />
 HOLIX Android Team
+</details>
