@@ -2,15 +2,14 @@
 https://workspace-dev.medium.com/jetpack-compose-textfield-5866bdae33e7
 
 # APK
-[apps.zip](https://github.com/holixfactory/TextField-SamsungKeyboard-Problem/files/9265878/apps.zip)
 
-| app-snapshot-debug.apk | app-latest-debug.apk |
+| [app-snapshot-debug.apk.zip](https://github.com/holixfactory/TextField-SamsungKeyboard-Problem/files/9304516/app-snapshot-debug.apk.zip) | [app-latest-debug.apk.zip](https://github.com/holixfactory/TextField-SamsungKeyboard-Problem/files/9304515/app-latest-debug.apk.zip) |
 |:---:|:---:|
 |<img src="https://user-images.githubusercontent.com/7759511/183021094-dbfd74ee-74e8-4ccf-a602-25766d188c85.gif" width="300">)|<img src="https://user-images.githubusercontent.com/7759511/183021005-4f100369-4f46-4d46-8370-10b394859502.gif" width="300">|
 
 - 삼성 키보드 버전 5.4.70.33
-- app-snapshot-debug.apk (compose 1.3.0-SNAPSHOT, material3 1.0.0-SNAPSHOT)
-- app-latest-debug.apk (compose 1.3.0-alpha02, material3 1.0.0-alpha15)
+- app-snapshot-debug.apk 문제가 해결된 버전 (compose 1.3.0-alpha03, material3 1.0.0-alpha16)
+- app-latest-debug.apk 문제가 발생하는 가장 최신 버전 (compose 1.3.0-alpha02, material3 1.0.0-alpha15)
 
 
 
