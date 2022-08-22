@@ -9,6 +9,7 @@ https://workspace-dev.medium.com/jetpack-compose-textfield-5866bdae33e7
 
 - 삼성 키보드 버전 5.4.70.33
 - app-snapshot-debug.apk 문제가 해결된 버전 (compose 1.3.0-alpha03, material3 1.0.0-alpha16)
+  - material은 여전히 foundation 1.2.0을 사용하고 있고, foundation 1.3.0-alpha03 이상을 dependencies에 함께 사용해야 함. [이 줄](https://github.com/holixfactory/TextField-SamsungKeyboard-Problem/blob/main/snapshot/build.gradle#L41)을 제거하고 `snapshot` 빌드를 수행하면 여전히 문제 발생
 - app-latest-debug.apk 문제가 발생하는 가장 최신 버전 (compose 1.3.0-alpha02, material3 1.0.0-alpha15)
 
 
