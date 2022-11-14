@@ -32,13 +32,12 @@ android {
         compose true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion '1.2.0'
+        kotlinCompilerExtensionVersion '1.3.2'
     }
 }
 
 dependencies {
     implementation "androidx.compose.ui:ui:$compose_snapshot_version"
-    implementation "androidx.compose.foundation:foundation:$compose_snapshot_version"
     implementation "androidx.compose.ui:ui-tooling-preview:$compose_snapshot_version"
     implementation "androidx.compose.material:material:$compose_snapshot_version"
     implementation "androidx.compose.material3:material3:$compose_material_3_snapshot_version"
