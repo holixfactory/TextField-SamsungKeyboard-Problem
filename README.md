@@ -2,17 +2,16 @@
 https://workspace-dev.medium.com/jetpack-compose-textfield-5866bdae33e7
 
 # APK
-
 | [app-snapshot-debug.apk.zip](https://github.com/holixfactory/TextField-SamsungKeyboard-Problem/files/9304516/app-snapshot-debug.apk.zip) | [app-latest-debug.apk.zip](https://github.com/holixfactory/TextField-SamsungKeyboard-Problem/files/9304515/app-latest-debug.apk.zip) |
 |:---:|:---:|
 |<img src="https://user-images.githubusercontent.com/7759511/183021094-dbfd74ee-74e8-4ccf-a602-25766d188c85.gif" width="300">)|<img src="https://user-images.githubusercontent.com/7759511/183021005-4f100369-4f46-4d46-8370-10b394859502.gif" width="300">|
 
 - 삼성 키보드 버전 5.4.70.33
-- app-snapshot-debug.apk 문제가 해결된 버전 (compose 1.3.0-alpha03, material3 1.0.0-alpha16)
-  - material은 여전히 foundation 1.2.0을 사용하고 있고, foundation 1.3.0-alpha03 이상을 dependencies에 함께 사용해야 함. [이 줄](https://github.com/holixfactory/TextField-SamsungKeyboard-Problem/blob/main/snapshot/build.gradle#L41)을 제거하고 `snapshot` 빌드를 수행하면 여전히 문제 발생
-- app-latest-debug.apk 문제가 발생하는 가장 최신 버전 (compose 1.3.0-alpha02, material3 1.0.0-alpha15)
+  - `app-snapshot-debug.apk` 문제가 해결된 버전 (compose 1.3.0-alpha03, material3 1.0.0-alpha16)
+    - material은 여전히 foundation 1.2.0을 사용하고 있고, foundation 1.3.0-alpha03 이상을 dependencies에 함께 사용해야 함. [이 줄](https://github.com/holixfactory/TextField-SamsungKeyboard-Problem/blob/main/snapshot/build.gradle#L41)을 제거하고 `snapshot` 빌드를 수행하면 여전히 문제 발생
+  - `app-latest-debug.apk` 문제가 발생하는 가장 최신 버전 (compose 1.3.0-alpha02, material3 1.0.0-alpha15)
 
-
+- (11월 14일 추가) 삼성 키보드 버전 5.4.80.1 + compose 1.3.0-alpha03, 1.3.0, 1.4.0-alpha01, 1.4.0-alpha02 모두 잘 동작함.
 
 # 이전의 기록
 <details>
